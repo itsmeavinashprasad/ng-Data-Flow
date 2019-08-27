@@ -1,0 +1,6 @@
+<div style="background: crimson">
+    <h3>Grandchild Component</h3>
+
+    <input type="text" placeholder="Enter Text" #userInput>
+    <button (click)="this.grandchildEvent.emit(userInput.value); "  >Send to Parent(Child)</button>
+</div>

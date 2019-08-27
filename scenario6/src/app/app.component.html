@@ -1,0 +1,12 @@
+<div style="background: pink;">
+  <h1>Scenario 6</h1>
+
+  <input type="text" #userInput (keyup)="p2c = userInput.value"> 
+
+  <app-child1 [parentData]="p2c">
+  </app-child1>
+  
+  <app-child2 [parentData]="p2c">
+  </app-child2>
+
+</div>

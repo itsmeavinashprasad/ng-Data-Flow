@@ -1,0 +1,11 @@
+<div style="background: pink">
+
+    <h1>Scenario 3</h1>
+    
+    <input type="text" #userInput>
+    <button (click)=" p2c = userInput.value " >Send to Child</button> 
+    <app-child [parentData]="p2c">
+      
+    </app-child>
+
+</div>

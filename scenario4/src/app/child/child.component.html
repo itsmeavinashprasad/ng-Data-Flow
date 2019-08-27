@@ -1,0 +1,9 @@
+<div style="background: yellow" >
+    <h1>Child</h1>
+
+    <input type="text" #userInput>
+    <button (click)=" this.childEvent.emit(userInput.value)  " >Send to Parent</button> 
+    
+    
+
+</div>
